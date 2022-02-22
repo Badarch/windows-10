@@ -1,0 +1,26 @@
+.lockscreen-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../assets/images/lockscreen.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+}
+.lockscreen-time-container {
+    height: 35%;
+    width: 100%;
+    padding-left: 30px;
+}
+.lockscreen-time {
+    color: white;
+    font-family: 'Segoe UI Light';
+}
+.ls-hours {
+    font-size: 140px;
+}
+.ls-months {
+    font-size: 60px;
+}
